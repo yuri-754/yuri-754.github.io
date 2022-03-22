@@ -1,0 +1,638 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.4;
+    color: #333;
+    background-color: #F1AB86;
+}
+
+/* INDEX PAGE */
+
+header{
+    margin-bottom: 50px;
+    border-bottom-style: solid;
+}
+
+.navbar{
+    background: #F7DBA7;
+    padding: 1rem;
+}
+
+.navbar-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-logo{
+    text-decoration: none;
+    color: #333;
+    
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav{
+    text-align: center;
+    padding: 0.8rem 0 0.2rem 0;
+}
+
+.navbar-nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.navbar-nav a:hover{
+    color: #9cafb7;
+}
+
+.frontpage-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.home-text{
+    border-style: solid;
+    padding: 1.2rem 2.4rem;
+    margin-bottom: .5rem;
+}
+
+.home-left-side h1{
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-left-side p{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.home-left-side span{
+    font-weight: 500;
+    font-size: 2.1rem;
+}
+
+.home-text a{
+    padding: .5em 1em;
+    background-color: #F7DBA7;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.more-info{
+    text-decoration: none;
+    color: #333;
+}
+
+.home-text a:hover{
+    background-color: #9cafb7;
+}
+
+.home-icons{
+    text-decoration: none;
+
+}
+
+.home-icons a{
+    font-size: 2rem;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.1rem;
+}
+
+.picture{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    border-style: ridge;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 150px;
+    font-size: 0.7rem;
+    line-height: .8rem;
+    font-style: italic;
+}
+
+
+/* ABOUT PAGE */
+
+.aboutpage-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    text-align: center;
+}
+
+.aboutpage-container h1{
+    font-size: 3.5rem;
+}
+
+.about-text{
+    border-style: solid;
+    padding: 1.2rem 2.4rem; 
+    font-size: 1.6rem;
+}
+
+.about-text p{
+    margin-bottom: 1.5rem;
+}
+
+.about-text q{
+    font-style: italic;
+}
+
+
+/* SKILLS PAGE */
+
+.skillspage-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    text-align: center;
+}
+
+.skillspage-container h1{
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.skills-title{
+    margin-bottom: 2rem;
+}
+
+.skills-2-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skills-2 h4{
+    margin-bottom: 1rem;
+}
+.meter{
+    margin-bottom: .5rem;
+}
+
+.skills-2{
+    background-color: #f4bd9f;
+    overflow: hidden;
+    border-style: solid;
+    padding: 1.2rem 2.4rem; 
+    font-size: 1.6rem;
+    width: 30%;
+}
+
+.PL-list, .WEB-list{
+    text-align: left;
+}
+
+.meter { 
+    height: 30px; 
+    position: relative;
+    background: #555;
+    border-radius: 10px;
+  }
+
+  .meter > span {
+    display: block;
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(5, 252, 70);
+    position: relative;
+    line-height: 0%;
+  }
+
+.meter >span > p{
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 15px;
+}
+
+.C{
+    width: 80%;
+    animation: C 1.5s
+}
+.Cplus{
+    width: 75%;
+    animation: Cplus 1.5s
+}
+.Java{
+    width: 60%;
+    animation: Java 1.5s
+}
+.Python{
+    width: 40%;
+    animation: Python 1.5s
+}
+.VB{
+    width: 65%;
+    animation: VB 1.5s
+}
+.HTML{
+    width: 70%;
+    animation: HTML 1.5s
+}
+.CSS{
+    width: 50%;
+    animation: CSS 1.5s
+}
+.JS{
+    width: 20%;
+    animation: JS 1.5s
+}
+
+@keyframes C {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes Cplus {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes Java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes Python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes VB {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes HTML {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes CSS {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes JS {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+/* PROJECT PAGE */
+
+#project-page{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+.project-images{
+    text-align: center;
+}
+
+.project-images img{
+    width: 45%;
+    margin: 1rem 0.4rem
+}
+
+.projects{
+    border-style: solid;
+    border-width: 5px;
+    margin: 25px 0;
+    padding: 1.2rem 2.4rem; 
+}
+
+.projects h4{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.projects p{
+    text-indent: 4rem;
+    text-align: justify;
+}
+
+img.TODO {
+    width: auto;
+}
+
+
+/* CONTACT PAGE */
+
+#contact-page{
+    min-height: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+    display: flex;
+}
+
+.left-container{
+    width: 100%;
+    /* background-color: #C57B57; */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.right-container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+#contact-page .contact-left-side{
+    margin: 0 auto;
+    text-align: center;
+}
+    
+#contact-page .contact-right-side{
+    margin: 0 auto;
+}
+
+.contact{
+    display: flex;
+    justify-content: left;
+    margin: 15px 0;
+}
+
+.contact p{
+    font-size: 2rem;
+}
+
+.contact-left-side h2{
+    font-size: 2.6rem;
+}
+
+.contact a{
+    width: 48px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.contact i{
+    color: black;
+    font-size: 25px;
+}
+
+@media screen and (max-width:1025px){
+    .home-text{
+        padding: 1.2rem 1.5rem;
+    }
+    .home-left-side h1{
+        font-size: 3rem;
+    }
+    .home-left-side p{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .home-left-side span{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .frontpage-container{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .home-text{
+        padding: 1.2rem 1.5rem;
+    }
+    .home-left-side h1{
+        font-size: 4rem;
+    }
+    .home-left-side p{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .home-left-side span{
+        font-size: 1.6rem;
+    }
+    .picture{
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+        border-style: ridge;
+    }
+    .navbar-nav a{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    .about-text{
+        font-size: 1.3rem;
+    }
+    #contact-page{
+        display: inline;
+    }
+    .right-container{
+        height: 50vh;
+    }
+    .left-container{
+        height: 20vh;
+        
+    }
+}
+
+@media screen and (max-width:426px){
+    .home-left-side h1{
+        font-size: 2.6rem;
+    }
+    .home-left-side p{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .home-left-side span{
+        font-size: 1.2rem;
+    }
+    .picture{
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+        border-style: ridge;
+    }
+    .navbar-nav a{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    .home-text a{
+        padding: .3em 1em;
+    }
+    .navbar-container{
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 0 1.2rem;
+        display: inline-block;
+        text-align: center  ;
+    }
+    .home-logo {
+        font-size: 1.7rem;
+    }
+    .navbar-nav{
+        text-align: center;
+        padding: 0.5rem 0 0.2rem 0;
+        line-height: 1.8rem;
+    }
+    .navbar-nav a{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .navbar-container{
+        margin: 0 0;
+        padding: 0 0;
+    }
+    .aboutpage-container h1{
+        font-size: 2.5rem;
+    }
+    .about-text{
+        font-size: 1rem;
+    }
+    .about-text{
+        padding: 1.2rem 1.5rem; 
+    }
+    .skillspage-container h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .skills-2-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-2{
+        width: 60%;
+    }
+    .projects{
+        padding: 1.2rem 1.5rem
+    }
+    .project-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-images img{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .projects h4{
+        text-align: center;
+    }
+    .projects p{
+        text-indent: 2rem;
+    }
+    .contact-right-side p{
+        font-size: 1.3rem;
+    }
+    .contact-right-side a{
+        width: 35px;
+        border-radius: 100%;
+    }
+    .contact-right-side i{
+        font-size: 16px;
+    }
+    .contact-left-side h2{
+        font-size: 2rem;
+    }
+    .left-container{
+        height: 10vh;
+    }
+    .right-container{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:376px){
+    .skillspage-container h1{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:321px){
+    .contact-left-side h2{
+        font-size: 1.7rem;
+    }
+    .contact-right-side p{
+        font-size: 1rem;
+    }
+    .contact-right-side a{
+        width: 30px;
+        border-radius: 100%;
+    }
+    .contact-right-side i{
+        font-size: 14px;
+    }
+    .left-container{
+        height: 5vh;
+    }
+    .right-container{
+        height: 40vh;
+    }
+}
